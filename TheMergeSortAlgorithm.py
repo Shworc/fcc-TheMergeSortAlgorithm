@@ -1,5 +1,4 @@
-
-
+# Function... 
 
 def merge_sort(array):
     if len(array) <= 1:
@@ -35,6 +34,7 @@ def merge_sort(array):
         right_array_index += 1
         sorted_index += 1
 
+# Function call
 # You can use the __name__ variable to determine if a Python script is being run as the main program or if it is being imported as a module (code written in another Python file).
 if __name__ == '__main__':
     numbers = [4, 10, 6, 14, 2, 1, 8, 5]
